@@ -1,0 +1,82 @@
+<html>
+<head>
+<title> contact us </title>
+<link rel ="stylesheet" href="formstyle.css">
+</head>
+
+<body>
+<header>
+
+
+
+  <div class="text-box">
+    <h1 id="title"> contact us and keep in touch!!</h1><hr>
+      <p id="description"> please fill the form below ...</p>
+  </div>
+
+
+
+</header>
+    <div class="container">
+      <form id="survey-form" method="GET" action="Base.html">
+
+         <div class="labels">
+          <label id="name-label" for="name">* Full Name</label></div>
+
+        <div class="input-tab">
+          <input class="input-field" type="text" id="name" name="name" 
+placeholder="Enter your name" required autofocus></div>
+
+         <div class="labels">
+          <label id="email-label" for="email">* Email</label></div>
+        <div class="input-tab">
+          <input class="input-field" type="email" id="email" name="email" placeholder="email@email.com" required></div>
+        
+         <div class="labels">
+          <label id="number-label" for="number">* Age</label></div>
+        <div class="input-tab">
+          <input class="input-field" type="number" id="number" name="number" min="1" max="120" placeholder="20" required></div>
+
+          
+         <div class="labels">
+          <label for="dropdown">language of comminucation </label></div>
+        <div class="input-tab">
+
+
+          <select id="dropdown" name="site">
+            <option disabled value selected>Select an option</option>
+            <option value="web">arabic</option>
+            <option value="hulu">english</option>
+            <option value="youtube">spanish</option>
+            <option value="tv">french</option>
+            <option value="other">Other</option>
+          </select>
+          </div>
+        
+        <div class="labels">
+          <label>How much do you like our work ?</label></div>
+        <div class="input-tab">
+            <input type="radio" name="radio-button" value="love">I love it!<br>
+            <input type="radio" name="radio-button" value="like">I like it<br>
+            <input type="radio" name="radio-button" value="ok">It's ok<br>
+            <input type="radio" name="radio-button" value="nah">Not really<br>
+        </div>
+        
+      
+      
+        
+        <div class="labels">
+          <label for="comments">  further comments </label></div>
+        <div class="input-tab">
+          <textarea class="input-field" id="comments" name="comments" rows="10" cols="40" placeholder="Your comments..."></textarea></div>
+        
+        <div class="btn">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+        
+      </form>
+    </div>
+
+
+</body>
+</html>

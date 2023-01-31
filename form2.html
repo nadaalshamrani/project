@@ -1,0 +1,82 @@
+<html>
+<head>
+<title> Order Form </title>
+<link rel ="stylesheet" href="formstyle.css">
+</head>
+
+<body>
+<header>
+
+
+
+  <div class="text-box">
+    <h1 id="title"> Order Form! </h1><hr>
+      <p id="description"> please fill the form below ...</p>
+  </div>
+
+
+
+</header>
+    <div class="container">
+      <form id="survey-form" method="GET" action="Base.html">
+
+         <div class="labels">
+          <label id="name-label" for="name">* Room space</label></div>
+
+        <div class="input-tab">
+          <input class="input-field" type="number" id="name" name="name" 
+placeholder="ex: 15m^2 " required autofocus></div>
+     
+         <div class="labels">
+          <label for="dropdown">* Room type </label></div>
+        <div class="input-tab">
+
+
+
+
+
+          <select id="dropdown" name="site" required>
+            <option disabled value selected>Select an option</option>
+            <option value="web">bedroom</option>
+            <option value="hulu">living room</option>
+            <option value="youtube">dining room</option>
+          </select>
+          </div>
+        
+        <div class="labels">
+          <label>* Select your fav design type</label></div>
+        <div class="input-tab">
+            <input type="checkbox" name="radio-button" value="love">Modren<br>
+            <input type="checkbox" name="radio-button" value="like">Classic<br>
+            <input type="checkbox" name="radio-button" value="ok">minimalist<br>
+<input type="checkbox" name="radio-button" value="nah">bohemian<br>
+        </div>
+
+	<div class="color"> 
+         <label for="favcolor">Select your room color:</label>
+ 		<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  		</div>
+
+       
+	<div class="file">
+         <p> Reference photos ( if any ) </p>
+         <label for="myfile">Select a file:</label>
+ 		 <input type="file" id="myfile" name="myfile"><br><br>
+		 </div>
+    
+        <div class="labels">
+          <label for="comments">  Other suggestions : </label></div>
+        <div class="input-tab">
+          <textarea class="input-field" id="comments" name="comments" rows="10" cols="40" placeholder="ex: # of people, # of beds ...etc"></textarea></div>
+
+
+ <div class="btn">
+          <button id="submit" type="submit">Order</button>
+        </div>
+        
+      </form>
+    </div>
+
+
+</body>
+</html>
